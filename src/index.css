@@ -1,0 +1,55 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(225, 193, 193, 0.8); /* Adjust transparency here */
+  background-image: url('hourglass.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px; 
+  border: 60px solid #1e1d1f; 
+  padding: 60px;
+}
+
+h1 {
+  color: rgb(21, 19, 19);
+  font-size: 36px;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(77, 97, 107);
+  border-radius: 10px;
+  font-size: 24px;
+  color: rgb(239, 140, 167);
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:hover {
+  background-color: #555;
+}
